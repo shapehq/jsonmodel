@@ -6,14 +6,14 @@
 #import <Foundation/Foundation.h>
 
 // core
-#import "JSONModel.h"
-#import "JSONModelError.h"
+#import <JSONModel/JSONModel.h>
+#import <JSONModel/JSONModelError.h>
 
 // transformations
-#import "JSONValueTransformer.h"
-#import "JSONKeyMapper.h"
+#import <JSONModelTransformations/JSONValueTransformer.h>
+#import <JSONModelTransformations/JSONKeyMapper.h>
 
 // networking (deprecated)
-#import "JSONHTTPClient.h"
-#import "JSONModel+networking.h"
-#import "JSONAPI.h"
+#import <JSONModelNetworking/JSONHTTPClient.h>
+#import <JSONModelNetworking/JSONModel+networking.h>
+#import <JSONModelNetworking/JSONAPI.h>

@@ -3,7 +3,7 @@
 //  JSONModel
 //
 
-#import "JSONModel.h"
+#import <JSONModel/JSONModel.h>
 
 extern NSString *const kHTTPMethodGET DEPRECATED_ATTRIBUTE;
 extern NSString *const kHTTPMethodPOST DEPRECATED_ATTRIBUTE;

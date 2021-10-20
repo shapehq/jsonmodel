@@ -4,6 +4,7 @@
 //
 
 #import "JSONHTTPClient.h"
+#import <JSONModel/JSONModelError.h>
 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #pragma GCC diagnostic ignored "-Wdeprecated-implementations"
