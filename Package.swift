@@ -22,8 +22,6 @@ let package = Package(
             sources: [
                 "JSONModel",
                 "JSONModel/JSONModel",
-                "JSONModel/JSONModelNetworking",
-                "JSONModel/JSONModelTransformations"
             ],
             publicHeadersPath: "JSONModel"
         ),
