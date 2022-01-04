@@ -167,8 +167,6 @@
 				92C9BC411B19A51100D79B06 /* Info.plist */,
 				92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */,
 				92C9BC631B19A5B600D79B06 /* JSONModel */,
-				92C9BC701B19A5B600D79B06 /* JSONModelNetworking */,
-				92C9BC771B19A5B600D79B06 /* JSONModelTransformations */,
 			);
 			path = JSONModel;
 			sourceTree = "<group>";
@@ -201,6 +199,8 @@
 		92C9BC631B19A5B600D79B06 /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
+				92C9BC771B19A5B600D79B06 /* JSONModelTransformations */,
+				92C9BC701B19A5B600D79B06 /* JSONModelNetworking */,
 				92C9BC641B19A5B600D79B06 /* JSONModel.h */,
 				92C9BC651B19A5B600D79B06 /* JSONModel.m */,
 				92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */,
@@ -408,6 +408,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 92C9BC331B19A51100D79B06;
